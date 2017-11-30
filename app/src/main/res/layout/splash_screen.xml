@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bb_darkBackgroundColor"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bb_darkBackgroundColor"
+        android:contentDescription="@string/app_name"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:src="@drawable/logo_upiita" />
+      <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:text="Gestor PT"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="40dp"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Gestor PT</string>
+    <string name="entrar">Entrar</string>
+    <string name="search">Search</string>
+    <string name="error_message">Failed to get results, please try again.</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="seccion_1">Sección 1</string>
+    <string name="seccion_2">Sección 2</string>
+    <string name="otras_opciones">Otras opciones</string>
+    <string name="opcion_1">Opción 1</string>
+    <string name="opcion_2">Opción 2</string>
+    <string name="seccion_3">Sección 3</string>
+    <string name="usuario">Usuario</string>
+    <string name="menu_abierto">Menu Abierto</string>
+    <string name="menu_cerrado">Menu Cerrado</string>
+    <string name="Protocolo">Protocolo</string>
+    <string name="PT1">PT1</string>
+    <string name="PT2">PT2</string>
+    <string name="calendar">Calendario de presentación</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="semestral_activity">Actividades Semestrales</string>
+    <string name="title_activity_notifications">Notificaciones</string>
+    <string name="entrega1">Entrega 1</string>
+    <string name="entrega2">Entrega 2</string>
+    <string name="entrega3">Entrega 3</string>
+    <string name="Presentacion_semetral">Acitividades semestral</string>
+    <string name="Presentacion_ordinario">Presenteción ordinaria</string>
+    <string name="Presentacion_extraordinario">Presenteción extraordinaria</string>
+    <string name="Presentacion_ets">Presenteción ETS</string>
+    <string name="Status">Status</string>
+    <string name="Status_General">Status</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="inicio">Inicio</string>
+    <string name="nulo">null</string>
+    <string name="revisor">Revisor</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="ver">ver</string>
+    <string name="subir">subir</string>
+    <string name="password_rest"><u>Olvidaste tu contraseña</u></string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium enim ex, hic odio quidem velit veniam! Accusamus architecto eius et nesciunt. Adipisci, quisquam, tempore. Blanditiis maxime molestias mollitia perferendis quidem!</string>
+
+
+
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+
+    <string name="fa_icon_areachart">&#xf1fe;</string>
+    <string name="calendar_icon">&#xf073;</string>
+    <string name="configuracion">Mi cuenta</string>
+
+
+    <!--String para layput User-->
+    <string name="nombre">Nombre</string>
+    <string name="ejemplo_nombre">Este es un ejemplo de un nombre que es un poco largo para probar el espacio</string>
+    <string name="email">Correo</string>
+    <string name="ejemplo_email">ejemplodecorreo@superrito.com</string>
+    <string name="Grupo">Grupo</string>
+    <string name="ejemplo_grupo">Ejemplo de Grupo</string>
+    <string name="ejemplo_proyecto">Este es un ejemplo de un proyecto con un nombre muy largo para probar el espacio que se ocupara en la pantalla</string>
+    <string name="Proyecto">Proyecto</string>
+
+    <string name="no_message_text">No hay ningúna notificación todavía</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_id">Número de identificación</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="error_invalid_user_id">Número de identificación inválido</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_server">Error en el servidor</string>
+    <string name="error_incorrect_user_id">Número de identificación no registrado</string>
+    <string name="error_network">Conexión de red no disponible</string>
+    <string name="error_invalid_password">Contraseña inválida</string>
+
+
+
+</resources>

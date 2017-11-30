@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    </style>
+    <style name="AppTheme.TransNav" parent="AppTheme">
+        <item name="android:navigationBarColor">@android:color/holo_green_dark</item>
+e        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+</resources>

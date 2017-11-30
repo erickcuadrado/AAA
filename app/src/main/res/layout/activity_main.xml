@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cuadrado.frontend.MainActivity">
+    <TextView
+        android:id="@+id/Texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestor de PTs"
+        android:paddingTop="15dp"
+        android:textSize="31sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <ImageView
+        android:id="@+id/imageHome"
+        android:src="@drawable/logo_upiita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Texto1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Usuario"
+            android:maxLines="1"
+            android:layout_marginTop="280dp"/>
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/usuario"
+            android:maxLines="1"
+            android:layout_marginTop="280dp"  />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginEnd="70dp" />
+        <EditText
+            android:id="@+id/password"
+            android:imeActionId="@+id/login"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginEnd="30dp" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:id="@+id/float_label_user_id"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/float_label_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/PasswordRecover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_rest"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:theme="@style/btnHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/texto3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    s
+
+</android.support.constraint.ConstraintLayout>

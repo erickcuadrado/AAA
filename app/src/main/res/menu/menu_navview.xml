@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/logo_upiita"
+            android:title="@string/Protocolo"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/logo_upiita"
+            android:title="@string/PT1"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/logo_upiita"
+            android:title="@string/PT2"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/otras_opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/calendar"
+                android:title="@string/calendar"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/actividae"
+                android:title="@string/semestral_activity"/>
+        </menu>
+    </item>
+    <item
+    android:id="@+id/navigation_sub_subheader"
+    android:title="@string/otras_opciones">
+    <menu>
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/home"
+            android:background="@color/bb_darkBackgroundColor"
+            android:title="@string/inicio"/>
+        <item
+            android:id="@+id/notificacion"
+            android:icon="@drawable/campana"
+            android:background="@color/bb_darkBackgroundColor"
+            android:title="@string/notifications"/>
+        <item
+            android:id="@+id/configuracion"
+            android:icon="@drawable/user"
+            android:background="@color/bb_darkBackgroundColor"
+            android:title="@string/configuracion"/>
+        <item
+            android:id="@+id/cerrar3"
+            android:icon="@drawable/logout2"
+            android:background="@color/bb_darkBackgroundColor"
+            android:title="@string/log_out"/>
+
+    </menu>
+</item>
+</menu>
