@@ -20,6 +20,7 @@ public class RetrofitClient {
                     .build();
         }
         return retrofit;*/
+        //hola
         if (retrofit==null) {
             retrofit = new Retrofit.Builder()
                     .baseUrl(baseUrl)
